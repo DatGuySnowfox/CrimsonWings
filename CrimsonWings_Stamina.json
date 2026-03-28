@@ -1,0 +1,276 @@
+{
+  "name": "CrimsonWings - Stamina Manager",
+  "version": "1.0",
+  "description": "by DatGuySnowfox. Movement stamina presets: 10%, 25%, 50%, 75%, Infinite. Covers Flight, Sprint, Swimming, Climbing, Horse, Dodge, Swing, Aerial, Vehicle. Apply only ONE patch group at a time.",
+  "patches": [
+    {
+      "game_file": "gamedata/skill.pabgb",
+      "changes": [
+        {
+          "offset": 494682,
+          "label": "[Infinite] [Flight] CrowWing_hover -25.0 -\u003E -0.001",
+          "original": "589effff",
+          "patched": "ffffffff"
+        },
+        {
+          "offset": 495393,
+          "label": "[Infinite] [Flight] CrowWing_Move -25.0 -\u003E -0.001",
+          "original": "589effff",
+          "patched": "ffffffff"
+        },
+        {
+          "offset": 495694,
+          "label": "[Infinite] [Flight] CrowWing_MoveFast -50.0 -\u003E -0.001",
+          "original": "b03cffff",
+          "patched": "ffffffff"
+        },
+        {
+          "offset": 498779,
+          "label": "[Infinite] [Flight] CrowWing_Dash -80.0 -\u003E -0.001",
+          "original": "80c7feff",
+          "patched": "ffffffff"
+        },
+        {
+          "offset": 496097,
+          "label": "[Infinite] [Flight] ShieldGlider_hover -25.0 -\u003E -0.001",
+          "original": "589effff",
+          "patched": "ffffffff"
+        },
+        {
+          "offset": 496843,
+          "label": "[Infinite] [Flight] ShieldGlider_MoveFast -50.0 -\u003E -0.001",
+          "original": "b03cffff",
+          "patched": "ffffffff"
+        },
+        {
+          "offset": 497244,
+          "label": "[Infinite] [Flight] Oongka_RocketPack -25.0 -\u003E -0.001",
+          "original": "589effff",
+          "patched": "ffffffff"
+        },
+        {
+          "offset": 497987,
+          "label": "[Infinite] [Flight] Oongka_RocketPack_MoveFast -50.0 -\u003E -0.001",
+          "original": "b03cffff",
+          "patched": "ffffffff"
+        },
+        {
+          "offset": 498406,
+          "label": "[Infinite] [Flight] Oongka_RocketPack_VerticalBoost -50.0 -\u003E -0.001",
+          "original": "b03cffff",
+          "patched": "ffffffff"
+        },
+        {
+          "offset": 1030198,
+          "label": "[Infinite] [Horse] HorseWait -31.1 -\u003E -0.001",
+          "original": "a086",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1030444,
+          "label": "[Infinite] [Horse] HorseMoveLv1 -31.1 -\u003E -0.001",
+          "original": "a086",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1030673,
+          "label": "[Infinite] [Horse] HorseMoveLv2 -31.1 -\u003E -0.001",
+          "original": "a086",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1030902,
+          "label": "[Infinite] [Horse] HorseMoveLv3 -31.1 -\u003E -0.001",
+          "original": "a086",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1031131,
+          "label": "[Infinite] [Horse] HorseMoveLv4 -25.5 -\u003E -0.001",
+          "original": "409c",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1031368,
+          "label": "[Infinite] [Horse] SpecialRidingMoveLv4 -20.0 -\u003E -0.001",
+          "original": "e0b1",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1031893,
+          "label": "[Infinite] [Horse] HorseDrift -20.0 -\u003E -0.001",
+          "original": "e0b1",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1032532,
+          "label": "[Infinite] [Horse] HorseStamina -10.0 -\u003E -0.001",
+          "original": "f0d8",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1032808,
+          "label": "[Infinite] [Horse] HorseRushAttack -20.0 -\u003E -0.001",
+          "original": "e0b1",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1033135,
+          "label": "[Infinite] [Horse] HorseJump -5.0 -\u003E -0.001",
+          "original": "78ec",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1033378,
+          "label": "[Infinite] [Horse] HorseDoubleJump -10.0 -\u003E -0.001",
+          "original": "f0d8",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1033653,
+          "label": "[Infinite] [Horse] HorsePowerJump -8.0 -\u003E -0.001",
+          "original": "c0e0",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1033920,
+          "label": "[Infinite] [Horse] HorseLateralMove -1.0 -\u003E -0.001",
+          "original": "18fc",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1034217,
+          "label": "[Infinite] [Horse] HorseSit -15.5 -\u003E -0.001",
+          "original": "50c3",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1034453,
+          "label": "[Infinite] [Horse] HorseKick -25.0 -\u003E -0.001",
+          "original": "589e",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1035615,
+          "label": "[Infinite] [Horse] HorseSwimWait -5.0 -\u003E -0.001",
+          "original": "78ec",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1035864,
+          "label": "[Infinite] [Horse] HorseSwimLv1 -7.5 -\u003E -0.001",
+          "original": "b4e2",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1036112,
+          "label": "[Infinite] [Horse] HorseSwimLv2 -10.0 -\u003E -0.001",
+          "original": "f0d8",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1036386,
+          "label": "[Infinite] [Horse] HorseWaterSprint -25.5 -\u003E -0.001",
+          "original": "409c",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1036678,
+          "label": "[Infinite] [Horse] HorseInstantAcc -20.0 -\u003E -0.001",
+          "original": "e0b1",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1037009,
+          "label": "[Infinite] [Horse] HorseInstantAcc_Combo -40.0 -\u003E -0.001",
+          "original": "c063ffff",
+          "patched": "ffffffff"
+        },
+        {
+          "offset": 1037301,
+          "label": "[Infinite] [Horse] HorseFastStart -40.0 -\u003E -0.001",
+          "original": "c063ffff",
+          "patched": "ffffffff"
+        },
+        {
+          "offset": 1037957,
+          "label": "[Infinite] [Horse] HorsePawStamp -10.0 -\u003E -0.001",
+          "original": "f0d8",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1040190,
+          "label": "[Infinite] [Horse] RidingDash -40.0 -\u003E -0.001",
+          "original": "c063ffff",
+          "patched": "ffffffff"
+        },
+        {
+          "offset": 1040433,
+          "label": "[Infinite] [Vehicle] WarMachine_Dash -150.0 -\u003E -0.001",
+          "original": "10b6fdff",
+          "patched": "ffffffff"
+        },
+        {
+          "offset": 1040716,
+          "label": "[Infinite] [Vehicle] WarMachine_Gatling -5.0 -\u003E -0.001",
+          "original": "78ec",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1041283,
+          "label": "[Infinite] [Vehicle] WarMachine_MultiShot -30.0 -\u003E -0.001",
+          "original": "d08a",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1041857,
+          "label": "[Infinite] [Vehicle] WarMachine_OverHeating -80.0 -\u003E -0.001",
+          "original": "80c7feff",
+          "patched": "ffffffff"
+        },
+        {
+          "offset": 1042144,
+          "label": "[Infinite] [Vehicle] WarMachine_FlameThrower -25.0 -\u003E -0.001",
+          "original": "589e",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1042715,
+          "label": "[Infinite] [Vehicle] WarMachine_Tongs -25.0 -\u003E -0.001",
+          "original": "589e",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1042997,
+          "label": "[Infinite] [Vehicle] WarMachine_welding -25.0 -\u003E -0.001",
+          "original": "589e",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1043542,
+          "label": "[Infinite] [Vehicle] TriStar_Evade -30.0 -\u003E -0.001",
+          "original": "d08a",
+          "patched": "ffff"
+        },
+        {
+          "offset": 1043792,
+          "label": "[Infinite] [Vehicle] TriStar_Breath -75.0 -\u003E -0.001",
+          "original": "08dbfeff",
+          "patched": "ffffffff"
+        },
+        {
+          "offset": 1031616,
+          "label": "[Infinite] [Horse] HorseMoveLv5_sprintRegen 18.0 -\u003E 10000.0",
+          "original": "50460000",
+          "patched": "80969800"
+        },
+        {
+          "offset": 1032232,
+          "label": "[Infinite] [Horse] HorseMoveLv5_100_sprintRegen 5.0 -\u003E 10000.0",
+          "original": "88130000",
+          "patched": "80969800"
+        }
+      ]
+    }
+  ]
+}
